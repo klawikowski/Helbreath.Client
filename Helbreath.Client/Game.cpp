@@ -41544,6 +41544,8 @@ int CGame::iGetManaCost(int iMagicNo)
 			else if( strcmp( m_pItemList[i]->m_cName, "KlonessWand(MS.10)" ) == 0)	iManaSave += 10;
 			else if( strcmp( m_pItemList[i]->m_cName, "ResurWand(MS.20)" ) == 0)	iManaSave += 20;
 			else if( strcmp( m_pItemList[i]->m_cName, "ResurWand(MS.10)" ) == 0)	iManaSave += 10;
+			else if (strcmp(m_pItemList[i]->m_cName, "DarkMageMagicStaff") == 0)	iManaSave += 22;
+			
 
 	}	}			
 	iManaCost = m_pMagicCfgList[iMagicNo]->m_sValue1;
